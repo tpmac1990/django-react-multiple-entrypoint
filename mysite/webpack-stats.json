@@ -1,1 +1,110 @@
-{"status":"done","chunks":{"main":[{"name":"main-eaa748bbed57d12ba07b.js","path":"/Users/naomi-gracepanlaqui/Documents/tutorials/django-react-webpack/mysite/polls/static/bundles/main-eaa748bbed57d12ba07b.js"}]}}
+{
+  "status": "done",
+  "assets": {
+    "main-6a2457acba4ff40c6aae.js": {
+      "name": "main-6a2457acba4ff40c6aae.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-6a2457acba4ff40c6aae.js"
+    },
+    "main-74e8f0b7e66d01a6dd46.js": {
+      "name": "main-74e8f0b7e66d01a6dd46.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-74e8f0b7e66d01a6dd46.js"
+    },
+    "main-edd37c94ebf3687a86bf.js": {
+      "name": "main-edd37c94ebf3687a86bf.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-edd37c94ebf3687a86bf.js"
+    },
+    "main-784503f0e65c831b7623.js": {
+      "name": "main-784503f0e65c831b7623.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-784503f0e65c831b7623.js"
+    },
+    "main-b9de5ba928028a1fb8dc.js": {
+      "name": "main-b9de5ba928028a1fb8dc.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-b9de5ba928028a1fb8dc.js"
+    },
+    "main-982431c6d2648282b54a.js": {
+      "name": "main-982431c6d2648282b54a.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-982431c6d2648282b54a.js"
+    },
+    "main-ba7c40102ecfd655fd78.js": {
+      "name": "main-ba7c40102ecfd655fd78.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-ba7c40102ecfd655fd78.js"
+    },
+    "main-301fce94fca514053225.js": {
+      "name": "main-301fce94fca514053225.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-301fce94fca514053225.js"
+    },
+    "main-58462ceda51b6b4e886c.js": {
+      "name": "main-58462ceda51b6b4e886c.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-58462ceda51b6b4e886c.js"
+    },
+    "main-49f459654b5d656e3750.js": {
+      "name": "main-49f459654b5d656e3750.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-49f459654b5d656e3750.js"
+    },
+    "main-887de5272595c634d42e.js": {
+      "name": "main-887de5272595c634d42e.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-887de5272595c634d42e.js"
+    },
+    "main-6e7754afa43bcace8612.js": {
+      "name": "main-6e7754afa43bcace8612.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-6e7754afa43bcace8612.js"
+    },
+    "main-107564edd0858c5e136b.js": {
+      "name": "main-107564edd0858c5e136b.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-107564edd0858c5e136b.js"
+    },
+    "main-38dfb5bd87a427de5124.js": {
+      "name": "main-38dfb5bd87a427de5124.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-38dfb5bd87a427de5124.js"
+    },
+    "main-04788e57f58136123ca9.js": {
+      "name": "main-04788e57f58136123ca9.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-04788e57f58136123ca9.js"
+    },
+    "main-33ffe22099392b7ec8cd.js": {
+      "name": "main-33ffe22099392b7ec8cd.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-33ffe22099392b7ec8cd.js"
+    },
+    "main-98a15155c5b7ed9f686c.js": {
+      "name": "main-98a15155c5b7ed9f686c.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-98a15155c5b7ed9f686c.js"
+    },
+    "main-531568c5928efcfba6c8.js": {
+      "name": "main-531568c5928efcfba6c8.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-531568c5928efcfba6c8.js"
+    },
+    "main-92f575c6b14a6263b904.js": {
+      "name": "main-92f575c6b14a6263b904.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-92f575c6b14a6263b904.js"
+    },
+    "main-6cf0f222c17e638b98d1.js": {
+      "name": "main-6cf0f222c17e638b98d1.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-6cf0f222c17e638b98d1.js"
+    },
+    "main-151e05a6cbc63f5e0e1a.js": {
+      "name": "main-151e05a6cbc63f5e0e1a.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-151e05a6cbc63f5e0e1a.js"
+    },
+    "main-df6b46327eb924bef5c4.js": {
+      "name": "main-df6b46327eb924bef5c4.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-df6b46327eb924bef5c4.js"
+    },
+    "main-37de5b6474be699a0a5f.js": {
+      "name": "main-37de5b6474be699a0a5f.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-37de5b6474be699a0a5f.js"
+    },
+    "main-71292efd2222c99553a8.js": {
+      "name": "main-71292efd2222c99553a8.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-71292efd2222c99553a8.js"
+    },
+    "main-3186724a92699dfdb9c7.js": {
+      "name": "main-3186724a92699dfdb9c7.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/main-3186724a92699dfdb9c7.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main-df6b46327eb924bef5c4.js"
+    ]
+  }
+}

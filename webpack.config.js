@@ -9,7 +9,7 @@ module.exports = {
 
   output: {
       path: path.resolve('./mysite/polls/static/bundles/'),
-      filename: "[name]-[hash].js",
+      filename: "[name]-[contenthash].js",
   },
 
   plugins: [

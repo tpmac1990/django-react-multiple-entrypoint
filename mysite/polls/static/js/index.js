@@ -1,11 +1,18 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+
+import { createRoot } from "react-dom/client";
 
 class Test extends React.Component {
     render() {
         var list = window.props;
-        return <div>{list.map(item => <TestChild key={item.pk}  
-                        question={item.question_text}/> )}</div>;
+        return (
+            <>
+                <h1>hello</h1>
+                <div>{list.map(item => <TestChild key={item.pk}  
+                    question={item.question_text}/> )}
+                </div>
+            </>
+        )
     }
 }
 
@@ -16,7 +23,10 @@ class TestChild extends React.Component {
 }
 
 
-ReactDOM.render(
-    <Test/>, 
-    window.react_mount, 
+const rootElement = document.getElementById("react");
+const root = createRoot(rootElement);
+
+root.render(
+    <Test/>
 );
+
