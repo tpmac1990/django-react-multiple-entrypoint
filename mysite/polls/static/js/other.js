@@ -8,7 +8,7 @@ class Test extends React.Component {
         console.log(list)
         return (
             <>
-                <h1>hello</h1>
+                <h1>other</h1>
                 <div>{list.map(item => <TestChild key={item.pk}  
                     question={item.question_text}/> )}
                 </div>
@@ -30,4 +30,3 @@ const root = createRoot(rootElement);
 root.render(
     <Test/>
 );
-

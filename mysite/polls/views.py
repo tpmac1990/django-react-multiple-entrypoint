@@ -22,3 +22,18 @@ class PollQuestions(View):
         }
 
         return render(request, self.template, context)
+
+
+class Others(View):
+    title = "Other"
+    template = 'polls/other.html'
+
+    def get(self, request):
+        questions = list(Question.objects.values('pk', 'question_text'))
+
+        context = {
+            'question_text': self.title,
+            'props': questions,
+        }
+
+        return render(request, self.template, context)
