@@ -1,30 +1,37 @@
 var path = require("path");
 var webpack = require('webpack');
 var BundleTracker = require('webpack-bundle-tracker');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const WriteFilePlugin = require('write-file-webpack-plugin');
 
 module.exports = {
   context: __dirname,
 
   entry: {
-    principal: './mysite/polls/static/js/index',
-    other: './mysite/polls/static/js/other'
+    principal: path.resolve(__dirname, 'mysite//polls/static/js/index'),
+    other: path.resolve(__dirname, 'mysite//polls/static/js/other')
   },
 
   output: {
-      path: path.resolve('./mysite/polls/static/bundles/'),
-      publicPath: '/static/', 
+      path: path.resolve(__dirname, 'mysite//polls/static/bundles/'),
+      publicPath: 'http://localhost:3000/static/', 
       chunkFilename: '[name].bundle.js',
       filename: "[name]-[contenthash].js",
   },
 
+  // web-dev-server: stores bundles in memory for faster response
   devServer: {
     port: 3000,
     hot: true,
-    headers: {'Access-Control-Allow-Origin': '*'}
+    headers: {'Access-Control-Allow-Origin': '*'},
   },
 
   plugins: [
-    new BundleTracker({filename: './mysite/webpack-stats.json'}),
+    // clear bundles folder before creating new files
+    new CleanWebpackPlugin({cleanOnceBeforeBuildPatterns: ['**/*','!favicon.png']}),
+    new BundleTracker({filename: 'mysite/webpack-stats.json'}),
+    // forces webpack-dev-server program to write bundle files to the file system
+    new WriteFilePlugin()
   ],
   module: {
     rules: [
@@ -37,86 +44,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['*', '.js', '.jsx']
-  }
+  },
 
 };
-
-
-
-
-// const path = require("path");
-// const common = require("./webpack.common");
-// const { merge } = require('webpack-merge');
-// const CopyWebpackPlugin = require('copy-webpack-plugin');
-
-// module.exports = merge(common, {
-//     mode: "development",
-//     entry: {
-//         main: "./src/index.js",
-//         vendor: "./src/vendor.js",
-//     },
-//     output: {
-//         filename: "[name].[hash].js",
-//         path: path.resolve(__dirname, "./gp/static"),
-//         // publicPath: 'http://localhost:8000/static/',
-//         publicPath: '/static/',
-//     },
-//     devServer: {
-//         port: 3000,
-//         hot: true,
-//         headers: {'Access-Control-Allow-Origin': '*'}
-//     },
-//     plugins: [
-//         new CopyWebpackPlugin({
-//             patterns: [
-//                 { from: path.resolve(__dirname,'./src/template_dev.html'), to: path.resolve(__dirname,'./gp/static/index.html') }
-//             ]
-//         })
-//     ],
-//     module: {
-//         rules: [
-//             {
-//                 test: /\.scss$/,
-//                 use: [
-//                     'style-loader',
-//                     'css-loader',
-//                     'sass-loader'
-//                 ]
-//             },
-//         ]
-//     }
-// });
-
-
-// const BundleTracker  = require('webpack-bundle-tracker');
-// const WriteFilePlugin = require('write-file-webpack-plugin');
-// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
-// module.exports = {
-//     plugins: [
-//             new CleanWebpackPlugin({
-//                     cleanOnceBeforeBuildPatterns: ['**/*','!favicon.png']
-//                 }),
-//             new BundleTracker({filename: './webpack-stats.json'}),
-//             new WriteFilePlugin()
-//         ],
-//     module: {
-//         rules: [
-//             {
-//                 test: /\.js$/,
-//                 exclude: /node_modules/,
-//                 use: [
-//                     {
-//                         loader: 'babel-loader',
-//                     }
-//                 ]
-//             },
-//             {
-//                 test: /\.(svg|jpg|jpeg|png|gif)$/,
-//                 use: {
-//                     loader: 'url-loader'
-//                 }
-//             }
-//         ]
-//     }
-// }

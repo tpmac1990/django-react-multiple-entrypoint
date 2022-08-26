@@ -29,7 +29,7 @@ class Others(View):
     template = 'polls/other.html'
 
     def get(self, request):
-        questions = list(Question.objects.values('pk', 'question_text'))
+        questions = [{'pk': 1, 'question_text': "What's different?"}, {'pk': 2, 'question_text': 'question 10'}, {'pk': 3, 'question_text': 'question 20'}, {'pk': 4, 'question_text': 'question 30'}]
 
         context = {
             'question_text': self.title,

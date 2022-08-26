@@ -5,7 +5,6 @@ import { createRoot } from "react-dom/client";
 class Test extends React.Component {
     render() {
         var list = window.props;
-        console.log(list)
         return (
             <>
                 <h1>other</h1>

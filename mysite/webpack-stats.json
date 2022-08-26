@@ -1,34 +1,24 @@
 {
   "status": "done",
   "assets": {
-    "other-4cdac4bf1ce5ccbd85f2.js.LICENSE.txt": {
-      "name": "other-4cdac4bf1ce5ccbd85f2.js.LICENSE.txt",
-      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/other-4cdac4bf1ce5ccbd85f2.js.LICENSE.txt",
-      "publicPath": "/static/other-4cdac4bf1ce5ccbd85f2.js.LICENSE.txt"
+    "principal-2ad761bd7b222ef2b421.js": {
+      "name": "principal-2ad761bd7b222ef2b421.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/principal-2ad761bd7b222ef2b421.js",
+      "publicPath": "http://localhost:3000/static/principal-2ad761bd7b222ef2b421.js"
     },
-    "principal-a4f5ba11d7e64198fd69.js.LICENSE.txt": {
-      "name": "principal-a4f5ba11d7e64198fd69.js.LICENSE.txt",
-      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/principal-a4f5ba11d7e64198fd69.js.LICENSE.txt",
-      "publicPath": "/static/principal-a4f5ba11d7e64198fd69.js.LICENSE.txt"
-    },
-    "principal-a4f5ba11d7e64198fd69.js": {
-      "name": "principal-a4f5ba11d7e64198fd69.js",
-      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/principal-a4f5ba11d7e64198fd69.js",
-      "publicPath": "/static/principal-a4f5ba11d7e64198fd69.js"
-    },
-    "other-4cdac4bf1ce5ccbd85f2.js": {
-      "name": "other-4cdac4bf1ce5ccbd85f2.js",
-      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/other-4cdac4bf1ce5ccbd85f2.js",
-      "publicPath": "/static/other-4cdac4bf1ce5ccbd85f2.js"
+    "other-bd622495d9a5b598a3e0.js": {
+      "name": "other-bd622495d9a5b598a3e0.js",
+      "path": "/Users/terry_mac/Documents/terry/projects/django-react-webpack/mysite/polls/static/bundles/other-bd622495d9a5b598a3e0.js",
+      "publicPath": "http://localhost:3000/static/other-bd622495d9a5b598a3e0.js"
     }
   },
   "chunks": {
     "principal": [
-      "principal-a4f5ba11d7e64198fd69.js"
+      "principal-2ad761bd7b222ef2b421.js"
     ],
     "other": [
-      "other-4cdac4bf1ce5ccbd85f2.js"
+      "other-bd622495d9a5b598a3e0.js"
     ]
   },
-  "publicPath": "/static/"
+  "publicPath": "http://localhost:3000/static/"
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js",
+    "start": "webpack-dev-server --config webpack.config.js --mode development",
     "build": "webpack --config webpack.config.js --progress --colors --mode development",
     "watch": "webpack --config webpack.config.js --watch --mode development"
   },
@@ -26,9 +26,11 @@
     "webpack": "^5.73.0",
     "webpack-bundle-tracker": "^1.6.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.9.3"
+    "webpack-dev-server": "^4.9.3",
+    "write-file-webpack-plugin": "^4.5.1"
   },
   "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
